@@ -10,7 +10,7 @@ let path = '/prod_data/';
 //let host ="http://sample-env.688iathgkb.us-west-2.elasticbeanstalk.com";
 let host ="http://localhost:1337/site/addconsumptiondata";
 //let auth ="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFtaXRwaHVsZXJhIiwiaWF0IjoxNDk1NTMyNzE4LCJleHAiOjE0OTU1MzYzMTh9.b6jQzwKeeoGcUDmqDD6zOZ04IhrMvd9pZxJCMuU3k74";
-var siteId=["sph","trh","ssh"];
+var siteId=["trh","trh","trh"];
     cron.schedule('* * * * * *',function(){
 
         let siteid=Math.floor((Math.random()) * 3);
